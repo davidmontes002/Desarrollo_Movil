@@ -1,0 +1,157 @@
+install -r /home/simi/AndroidStudioProjects/Mini2/app/build/outputs/apk/debug/app-debug.apk
+Performing Streamed Install
+Success
+
+install -r /home/simi/AndroidStudioProjects/Mini2/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+Performing Streamed Install
+Success
+
+shell am instrument -w -e class com.example.mini2.PersistenciaProcesoTest -e faseMini2 crear com.example.mini2.test/androidx.test.runner.AndroidJUnitRunner
+
+com.example.mini2.PersistenciaProcesoTest:.
+
+Time: 0.579
+
+OK (1 test)
+
+
+
+shell am force-stop com.example.mini2
+
+shell am start -W -n com.example.mini2/.MainActivity
+Starting: Intent { cmp=com.example.mini2/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.example.mini2/.MainActivity
+TotalTime: 2316
+WaitTime: 2325
+Complete
+
+shell am force-stop com.example.mini2
+
+shell am instrument -w -e class com.example.mini2.PersistenciaProcesoTest -e faseMini2 editar com.example.mini2.test/androidx.test.runner.AndroidJUnitRunner
+
+com.example.mini2.PersistenciaProcesoTest:.
+
+Time: 0.224
+
+OK (1 test)
+
+
+
+shell am force-stop com.example.mini2
+
+shell am start -W -n com.example.mini2/.MainActivity
+Starting: Intent { cmp=com.example.mini2/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.example.mini2/.MainActivity
+TotalTime: 1633
+WaitTime: 1676
+Complete
+
+shell am force-stop com.example.mini2
+
+shell am instrument -w -e class com.example.mini2.PersistenciaProcesoTest -e faseMini2 completar com.example.mini2.test/androidx.test.runner.AndroidJUnitRunner
+
+com.example.mini2.PersistenciaProcesoTest:.
+
+Time: 0.229
+
+OK (1 test)
+
+
+
+shell am force-stop com.example.mini2
+
+shell am start -W -n com.example.mini2/.MainActivity
+Starting: Intent { cmp=com.example.mini2/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.example.mini2/.MainActivity
+TotalTime: 1670
+WaitTime: 1686
+Complete
+
+shell am force-stop com.example.mini2
+
+shell am instrument -w -e class com.example.mini2.PersistenciaProcesoTest -e faseMini2 desmarcar com.example.mini2.test/androidx.test.runner.AndroidJUnitRunner
+
+com.example.mini2.PersistenciaProcesoTest:.
+
+Time: 0.393
+
+OK (1 test)
+
+
+
+shell am force-stop com.example.mini2
+
+shell am start -W -n com.example.mini2/.MainActivity
+Starting: Intent { cmp=com.example.mini2/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.example.mini2/.MainActivity
+TotalTime: 1691
+WaitTime: 1699
+Complete
+
+shell am force-stop com.example.mini2
+
+shell am instrument -w -e class com.example.mini2.PersistenciaProcesoTest -e faseMini2 eliminar com.example.mini2.test/androidx.test.runner.AndroidJUnitRunner
+
+com.example.mini2.PersistenciaProcesoTest:.
+
+Time: 0.192
+
+OK (1 test)
+
+
+
+shell am force-stop com.example.mini2
+
+shell am start -W -n com.example.mini2/.MainActivity
+Starting: Intent { cmp=com.example.mini2/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.example.mini2/.MainActivity
+TotalTime: 1652
+WaitTime: 1666
+Complete
+
+shell am force-stop com.example.mini2
+
+shell am instrument -w -e class com.example.mini2.PersistenciaProcesoTest -e faseMini2 limpiar com.example.mini2.test/androidx.test.runner.AndroidJUnitRunner
+
+com.example.mini2.PersistenciaProcesoTest:.
+
+Time: 0.423
+
+OK (1 test)
+
+
+
+shell am force-stop com.example.mini2
+
+shell am start -W -n com.example.mini2/.MainActivity
+Starting: Intent { cmp=com.example.mini2/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.example.mini2/.MainActivity
+TotalTime: 1713
+WaitTime: 1724
+Complete
+
+shell am force-stop com.example.mini2
+
+uninstall com.example.mini2.test
+Success
+
+shell am start -W -n com.example.mini2/.MainActivity
+Starting: Intent { cmp=com.example.mini2/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.example.mini2/.MainActivity
+TotalTime: 2564
+WaitTime: 2570
+Complete
