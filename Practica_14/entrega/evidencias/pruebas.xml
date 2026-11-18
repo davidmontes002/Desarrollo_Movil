@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="2" failures="0" errors="0" skipped="0" time="2.78" timestamp="2026-11-16T04:41:23" hostname="localhost">
+  <testsuite name="com.example.practica_14.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="0.009" timestamp="2026-11-16T04:41:23" hostname="localhost">
+    <properties>
+      <property name="device" value="moto g53 5G - 14" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="useAppContext" classname="com.example.practica_14.ExampleInstrumentedTest" time="0.009" />
+  </testsuite>
+  <testsuite name="com.example.practica_14.MarcadorPersistenceTest" tests="1" failures="0" errors="0" skipped="0" time="0.177" timestamp="2026-11-16T04:41:23" hostname="localhost">
+    <properties>
+      <property name="device" value="moto g53 5G - 14" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="insertarEmiteFlowYConservaCoordenadasAlReabrir" classname="com.example.practica_14.MarcadorPersistenceTest" time="0.177" />
+  </testsuite>
+</testsuites>

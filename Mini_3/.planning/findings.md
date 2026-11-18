@@ -1,0 +1,1 @@
+Proyecto Empty Activity existente, namespace/applicationId com.example.mini_3; AGP 9.3.3, Gradle 9.5.0, Kotlin Compose 2.2.10, SDK 37, mínimo 24. Sin AGENTS.md encontrado. Room 2.8.4 y KSP 2.3.10 según documentación oficial. Cachés de compilación aisladas dentro del proyecto para respetar restricción de escritura.
